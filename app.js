@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
   
   for (let index = 1; index <= 50; index++) 
   {
-    resultado = (index % 2 == 0) ? ' Soy par!' : ' Soy impar!';
+    resultado = (index % 2 == 0) ? 'Soy par!' : 'Soy impar!';
     html += `<p>${index} ${resultado}</p>`;
   }
 
