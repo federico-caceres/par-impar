@@ -9,9 +9,9 @@ app.get('/', (req, res) => {
   {
     if (index % 2 == 0) 
     {
-        html += `</br><p1>${index} Soy par!</p1>`;  
+        html += `</br><p>${index} Soy par!</p>`;  
     }else{
-        html += index === 1 ? `<p1>${index} Soy impar!</p1>` : `</br><p1>${index} Soy impar!</p1>`;  
+        html += index === 1 ? `<p>${index} Soy impar!</p>` : `</br><p>${index} Soy impar!</p>`;  
     }
   }
 
